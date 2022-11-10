@@ -14,3 +14,9 @@ Una vez configuradas las variables de entorno se debe ejecutar el siguiente coma
 ```
 npm run dev
 ```
+
+## Url productos aleatorios con faker
+Para probar la vista que devuelve los productos generados aleatoriamente se debe acceder a la sgte url:
+`http://localhost:8080/api/productos-test`
+
+visit http://localhost:8080/api/productos-test
