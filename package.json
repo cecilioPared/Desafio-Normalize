@@ -2,6 +2,7 @@
   "name": "desafio6-websockets",
   "version": "0.0.0",
   "private": true,
+  "main": "app.js",
   "type": "module",
   "scripts": {
     "start": "node .",
