@@ -1,0 +1,19 @@
+<div class="grid">    
+    <article>
+        <h4>Productos Mocks</h4>
+        <table>
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th>Foto</th>
+            {{#each productos}}
+            <tr>              
+                <td>{{this.nombre}}</td>
+                <td>{{this.precio}}</td>
+                <td class="img-fluid">
+                    <img src="{{this.foto}}" alt="{{this.nombre}}">
+                </td>
+            </tr>
+            {{/each}}
+        </table>
+    </article>
+</div>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./stylesheets/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/normalizr@3.6.2/dist/normalizr.browser.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css"/> 
+    <title>Desafio - Normalizacion</title>
+  </head>
+
+  <body>
+    <article>
+      <div class="grid">
+        <h4>Centro de Mensajes</h4>
+        <h4 id="lblTitulo">
+          Centro de mensajes</h4>
+      </div>
+    </article>
+    
+    <article>
+      <div class="grid">
+        <form id="form-chat">
+          <input
+            type="email"
+            name="email"
+            id="input-email"
+            placeholder="Ingresa tu email"
+            required
+          />
+          <input
+            type="text"
+            name="nombre"
+            id="input-nombre"
+            placeholder="Ingresa tu nombre"
+            required
+          />
+          <input
+            type="text"
+            name="apellido"
+            id="input-apellido"
+            placeholder="Ingresa tu apellido"
+            required
+          />
+          <input
+            type="text"
+            name="alias"
+            id="input-alias"
+            placeholder="Ingresa tu alias"
+            required
+          />
+          <input
+            type="text"
+            name="avatar"
+            id="input-avatar"
+            placeholder="Ingresa tu avatar"
+            required
+          />
+          <input
+            type="number"
+            name="edad"
+            id="input-edad"
+            placeholder="Ingresa tu edad"
+            required
+          />
+          <input
+            type="text"
+            name="mensaje"
+            id="input-mensaje"
+            placeholder="Ingresa mensaje..."
+            required
+          />
+          <button type="submit">Enviar</button>
+        </form>
+        <ul id="lista-mensajes"></ul>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+        <script src="socket.io/socket.io.min.js"></script>
+        <script src="/js/script.js"></script>        
+      </div>
+    </article>
+  </body>
+</html>

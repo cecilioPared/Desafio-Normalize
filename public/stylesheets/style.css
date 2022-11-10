@@ -1,0 +1,30 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.img-fluid {
+  height: 100px;
+  width: 100px;
+  text-align: end;
+}
+
+.img-avatar {
+  height: 30px;
+  width: 30px;
+  text-align: end;
+}
+
+.blue{
+  color:blue;
+}
+.mjs{
+  color:green;font-style: italic;
+}
+.brown{
+  color:brown;
+}
